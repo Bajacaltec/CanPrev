@@ -4,5 +4,5 @@ with col1:
     st.title("CanPrev App ")
     st.subheader("Prevención de cancer según edad")
 with col2:
-    st.image("WAPP.png","https://elmedpost.wordpress.com,350,)
+    st.image("WAPP.png","[linkg]https://elmedpost.wordpress.com",350,)
 edad=st.slider("Edad",1,130,None)
