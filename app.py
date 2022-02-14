@@ -6,6 +6,6 @@ with col1:
     st.subheader("Prevención de cancer según edad")
 with col2:
     st.image("WAPP.png",None,350)
-    link = '<p style="font-family:Times; color:; font-size: 30px;">SOFA</p>'
+    link = '<p style="font-family:Times; color:; font-size: 30px;">https://elmedpost.wordpress.com</p>'
     st.markdown(link,unsafe_allow_html=True)
 edad=st.slider("Edad",1,130,None)
